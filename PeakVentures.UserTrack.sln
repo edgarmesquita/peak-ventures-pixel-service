@@ -1,0 +1,56 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelService.Api", "src\PixelService\PixelService.Api\PixelService.Api.csproj", "{E38D1C8C-7DFA-48E6-8387-DB5A399BAFC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5A1A03B5-3E9E-42CE-BCB1-14FCC40F10ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelService.Application", "src\PixelService\PixelService.Application\PixelService.Application.csproj", "{50C1821F-EC65-4801-94E1-DFB5E4A71C2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{711EB514-5D5D-476C-A135-BDD3D1AD40C3}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PixelService", "PixelService", "{6A29F163-2BB8-4820-9FC3-BB99134DAA7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StorageService", "StorageService", "{433360E3-D263-482A-8264-AC4965B94C8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageService.Worker", "src\StorageService\StorageService.Worker\StorageService.Worker.csproj", "{FD662911-E27D-4FBA-B219-841C84C83FEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{117D5CA7-C9FE-4E5E-B6DC-625B4D815A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelService.Application.Tests", "tests\PixelService.Application.Tests\PixelService.Application.Tests.csproj", "{A7B087E2-DEF3-4F1B-B815-D20D099BF052}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E38D1C8C-7DFA-48E6-8387-DB5A399BAFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38D1C8C-7DFA-48E6-8387-DB5A399BAFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38D1C8C-7DFA-48E6-8387-DB5A399BAFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38D1C8C-7DFA-48E6-8387-DB5A399BAFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C1821F-EC65-4801-94E1-DFB5E4A71C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C1821F-EC65-4801-94E1-DFB5E4A71C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C1821F-EC65-4801-94E1-DFB5E4A71C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C1821F-EC65-4801-94E1-DFB5E4A71C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD662911-E27D-4FBA-B219-841C84C83FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD662911-E27D-4FBA-B219-841C84C83FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD662911-E27D-4FBA-B219-841C84C83FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD662911-E27D-4FBA-B219-841C84C83FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B087E2-DEF3-4F1B-B815-D20D099BF052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B087E2-DEF3-4F1B-B815-D20D099BF052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B087E2-DEF3-4F1B-B815-D20D099BF052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B087E2-DEF3-4F1B-B815-D20D099BF052}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A29F163-2BB8-4820-9FC3-BB99134DAA7A} = {5A1A03B5-3E9E-42CE-BCB1-14FCC40F10ED}
+		{E38D1C8C-7DFA-48E6-8387-DB5A399BAFC4} = {6A29F163-2BB8-4820-9FC3-BB99134DAA7A}
+		{50C1821F-EC65-4801-94E1-DFB5E4A71C2F} = {6A29F163-2BB8-4820-9FC3-BB99134DAA7A}
+		{433360E3-D263-482A-8264-AC4965B94C8F} = {5A1A03B5-3E9E-42CE-BCB1-14FCC40F10ED}
+		{FD662911-E27D-4FBA-B219-841C84C83FEE} = {433360E3-D263-482A-8264-AC4965B94C8F}
+		{A7B087E2-DEF3-4F1B-B815-D20D099BF052} = {117D5CA7-C9FE-4E5E-B6DC-625B4D815A74}
+	EndGlobalSection
+EndGlobal
